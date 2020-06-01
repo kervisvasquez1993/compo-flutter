@@ -37,6 +37,10 @@ class HomePageTemp extends StatelessWidget {
             children : <Widget>[        
             ListTile(
                      title: Text('$item !'),
+                     subtitle: Text('esto es un hijo'),
+                     leading: Icon(Icons.access_alarms),
+                     trailing: Icon(Icons.arrow_back),
+                     onTap: (){},
                     ),
             Divider()
             ],
