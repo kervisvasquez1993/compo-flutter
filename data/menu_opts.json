@@ -4,17 +4,17 @@
         {
             "ruta" : "alert",
             "icon" : "add_alert",
-            "texto": "Alertas"
+            "texto": "¿Ya Eres Clientes? Iniciar Sesión"
         },
         {
             "ruta" : "avatar",
             "icon" : "accessibility",
-            "texto": "Avatars"
+            "texto": "¿Nuevo en Redvital.com? Crea una Cuenta"
         },
         {
             "ruta" : "card",
             "icon" : "folder_open",
-            "texto": "Cards - Tarjetas"
+            "texto": "Omitir Inicio de Sesión"
         }
     ]
 }
