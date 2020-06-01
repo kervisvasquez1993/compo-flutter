@@ -1,4 +1,5 @@
-import 'package:componentes/pages/providers/menu_provider.dart';
+
+import 'package:componentes/providers/menu_provider.dart';
 import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   @override
