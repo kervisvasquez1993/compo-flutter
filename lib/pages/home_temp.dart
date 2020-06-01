@@ -10,7 +10,7 @@ class HomePageTemp extends StatelessWidget {
         title: Text('componentes temp'),
       ),
         body: ListView(
-          children: _crearItem()
+          children: _crearItemCorto()
         ),
       
     );
@@ -24,9 +24,25 @@ class HomePageTemp extends StatelessWidget {
         final tempWidget = ListTile(
           title: Text(opt),
         );
-        lista.add(tempWidget);
-        lista.add(Divider(height: 20,));
+        lista..add(tempWidget)
+              ..add(Divider());
     }
     return lista;
+  }
+
+  List <Widget> _crearItemCorto()
+  {
+     return opciones.map((item){ // al principio me regresa un iterable, para cambiar esto es con un toList()
+        return Column(
+            children : <Widget>[        
+            ListTile(
+                     title: Text('$item !'),
+                    ),
+            Divider()
+            ],
+         );    
+     } ).toList();
+
+    
   }
 }
