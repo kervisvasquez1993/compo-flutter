@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HomePageTemp extends StatelessWidget {
+
+  final opciones = ['uno','dos','tres','cuatro']
   @override
   Widget build(BuildContext context) {
     return Scaffold(
