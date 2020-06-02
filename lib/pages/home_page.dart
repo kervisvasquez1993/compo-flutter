@@ -4,7 +4,8 @@ import 'package:componentes/providers/menu_provider.dart';
 
 import 'package:flutter/material.dart';
 
-import 'package:componentes/pages/alert_page.dart';class HomePage extends StatelessWidget {
+import 'package:componentes/pages/alert_page.dart';
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

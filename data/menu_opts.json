@@ -2,19 +2,24 @@
     "nombreApp" : "Componentes",
     "rutas" : [
         {
-            "ruta" : "alert",
+            "ruta" : "login",
             "icon" : "add_alert",
             "texto": "¿Ya Eres Clientes? Iniciar Sesión"
         },
         {
-            "ruta" : "avatar",
+            "ruta" : "singup",
             "icon" : "accessibility",
             "texto": "¿Nuevo en Redvital.com? Crea una Cuenta"
         },
         {
-            "ruta" : "card",
+            "ruta" : "omitir",
             "icon" : "folder_open",
-            "texto": "Omitir Inicio de Sesión"
+            "texto": "Omitir Inicio de Sesiónn"
+        },
+        {
+            "ruta" : "citas",
+            "icon" : "folder_open",
+            "texto": "prueba de citas"
         }
     ]
 }
