@@ -20,6 +20,11 @@
             "ruta" : "citas",
             "icon" : "folder_open",
             "texto": "prueba de citas"
+        },
+        {
+            "ruta" : "card",
+            "icon" : "folder_open",
+            "texto": "prueba de card"
         }
     ]
 }
