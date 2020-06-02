@@ -22,7 +22,13 @@ class CardPage extends StatelessWidget {
      return Card(
        child: Column(
          children: <Widget>[
-           //FadeInImage( ),
+           FadeInImage(
+             image: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg'),
+             placeholder: AssetImage('assets/jar-loading.gif'),
+             fadeInDuration: Duration(milliseconds: 200),
+             height: 300.0,
+             fit: BoxFit.cover,
+            ),
            //Image(
            //  image: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg'),
            // ),
@@ -38,6 +44,7 @@ class CardPage extends StatelessWidget {
 
 Widget _cardTipo1() {
     return Card(
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
       child : Column(
 
         children: <Widget>[
