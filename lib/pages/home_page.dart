@@ -46,13 +46,16 @@ import 'package:componentes/pages/alert_page.dart';class HomePage extends Statel
           leading: Icon(Icons.account_circle, color: Colors.blue),
           trailing: Icon(Icons.keyboard_arrow_right, color: Colors.blue),
           onTap: (){
-              final route = MaterialPageRoute(
-                builder: (context)
-                {
-                return AlertPage();
-                }
-                 );
-              Navigator.push(context, route);
+              
+              
+              Navigator.pushNamed(context, '/${opt['ruta']}');
+              //final route = MaterialPageRoute(
+              //  builder: (context)
+              //  {
+              //  return AlertPage();
+              //  }
+              //   );
+              //Navigator.push(context, route);
           },
         ); 
 
